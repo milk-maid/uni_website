@@ -16,5 +16,6 @@ All the following files are programme written during the building of the counter
 | -------- | ------------ |
 | `index.html` | the markup file that contains the main html code |
 | `styles.css` | the linked stylesheet |
+| `images` | a folder that houses all images used in this task |
 | `README.md` | the markdown file added to the root of the repository |
 | `introduction.js` | the javascript file for the project |
