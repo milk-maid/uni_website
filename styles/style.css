@@ -329,3 +329,8 @@ nav .fa {
     margin-top: 15px;
     text-align: left;
 }
+
+/* changing the default star color[Black] */
+.testimonial-col .fa {
+    color: #f44336;
+}
