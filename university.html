@@ -9,12 +9,162 @@
     <meta name="keywords" content="Responsive, CSS, Design">
     <meta property="title" content="ResponsiveDesign"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic. com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?  family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
+    <!-- for font awesome for cdn -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>University Website</title>
 </head>
 <body>
-    
+    <main class="header">
+        <nav>
+            <!-- Watch Out -->
+            <a href="university.html" target="_blank" title="Home"><img src="./images/logo.png" alt="our logo"></a>
+            <div class="nav-links" id="navLinks">
+                <!-- for the icon imported for CLOSE & MENU sign -->
+                <!-- from font-awesome  -->
+                <!-- and path removed to make it simple : '  aria-hidden="true"  ' -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <!-- the text in  the center of the -->
+        <div class="text-box">
+            <h1>Your Dream University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, minima maiores molestiae saepe sapiente iusto 
+                <br>
+            fugit suscipit quod natus fugiat ratione incidunt.</p>
+            <a href="#" class="hero-btn">Want to know more?</a>
+        </div>
+    </main>
+
+    <!-- Course Section -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>A Level</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ut accusantium ipsa animi repellendus consectetur, maiores optio corporis officia quia illum atque omnis porro suscipit?</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ut accusantium ipsa animi repellendus consectetur, maiores optio corporis officia quia illum atque omnis porro suscipit?</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduate</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ut accusantium ipsa animi repellendus consectetur, maiores optio corporis officia quia illum atque omnis porro suscipit?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Location (CAMPUS) -->
+
+    <section class="campus">
+        <h1>STUDY CENTERS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit!</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="./images/london.png" alt="London Study Center" title="Campus">
+
+                <div class="layer">
+                    <h3>London Study Center</h3>
+                </div>
+
+            </div>
+
+            <div class="campus-col">
+                <img src="./images/newyork.png" alt="New-York Study Center" title="Campus">
+
+                <div class="layer">
+                    <h3>New-York Study Center</h3>
+                </div>
+
+            </div>
+
+            <div class="campus-col">
+                <img src="./images/washington.png" alt="Washington Study Center" title="Campus">
+
+                <div class="layer">
+                    <h3>Washington Study Center</h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FACILITIES -->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+        <div class="row">
+
+            <div class="facilities-col">
+                <img src="./images/library.png" alt="Our Library" title="Library">
+                <h3>Best Class Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, vero? Quasi, modi!</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="./images/basketball.png" alt="Playground" title="Pitch">
+                <h3>Conducive Playground</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, vero? Quasi, modi!</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="./images/cafeteria.png" alt="Our Dinning Hall" title="Dinning">
+                <h3>Healthy Meal</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, vero? Quasi, modi!</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CUSTOMER TESTIMONIALS -->
+
+    <section class="testimonials">
+
+        <h1>What Users Says About Us</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, vero? Quasi, modi!</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="./images/user2.jpg" alt="Customer">
+
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam at, consequatur cupiditate fugiat beatae, magnam eaque exercitationem incidunt praesentium ea hic sapiente illo eum.</p>
+                    <h3>Mr Fullfilled Customer</h3>
+                </div>
+            </div>
+
+            <div class="testimonial-col">
+                <img src="./images/user1.jpg" alt="Customer">
+
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam at, consequatur cupiditate fugiat beatae, magnam eaque exercitationem incidunt praesentium ea hic sapiente illo eum.</p>
+                    <h3>Miss Happy Customer</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <script src="./script.js"></script>
 </body>
