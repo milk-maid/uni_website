@@ -82,15 +82,15 @@
             </div>
             <div class="contact-col">
 
-                <form action="">
+                <form action="form-handler.php" method="post">
 
-                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="text" name="name"  placeholder="Enter Your Name" required>
 
-                    <input type="email" placeholder="Enter Your email address" required>
+                    <input type="email" name="email" placeholder="Enter Your email address" required>
 
-                    <input type="text" placeholder="Enter Your Course" required>
+                    <input type="text" name="subject" placeholder="Enter Your Course" required>
 
-                    <textarea name="" id="" cols="" rows="8" placeholder="Message" required>
+                    <textarea name="message" id="" cols="" rows="8" placeholder="Message" required>
                     </textarea>
 
                     <button type="submit" class="hero-btn red-visible-btn "> Send Message</button>
